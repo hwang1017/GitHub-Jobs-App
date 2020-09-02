@@ -24,8 +24,6 @@ function App() {
       <SearchForm
         params={params}
         onParamsChange={handleParamsChange}
-        value={params.description}
-        name="description"
       />
       <JobsPagination page={page} setPage={setPage} hasNextpage={hasNextpage} />
       {loading && <h1>loading...</h1>}
